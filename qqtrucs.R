@@ -35,7 +35,16 @@ use_logo("") # pour ajouter hexastickr
 
 
 
-use_news_md()
+use_news_md() # pour faire un change log...
+
+
+# faire vignette
+use_vignette("example")
+
+
+use_github()
+# INTEGRATION continue
+use_github_action_check_release()
 
 
 ## use frequently
