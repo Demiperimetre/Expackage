@@ -42,9 +42,10 @@ use_news_md() # pour faire un change log...
 use_vignette("example")
 
 
-use_github("https://github.com/Demiperimetre/Expackage")
+use_github("https://github.com/Demiperimetre/Expackage") ## marche pas recup des commandes depuis gith
 # INTEGRATION continue
 use_github_action_check_release()
+
 
 
 ## use frequently
