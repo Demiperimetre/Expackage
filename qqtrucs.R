@@ -47,6 +47,12 @@ use_github("https://github.com/Demiperimetre/Expackage") ## marche pas recup des
 use_github_action_check_release()
 
 
+## SITE
+pkgdown::build_site()
+pkgdown::template_reference()
+pkgdown::clean_site() # pour supprimer car sinon site en local
+# pour deployer sur github
+
 
 ## use frequently
 
