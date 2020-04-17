@@ -52,6 +52,25 @@ pkgdown::build_site()
 pkgdown::template_reference()
 pkgdown::clean_site() # pour supprimer car sinon site en local
 # pour deployer sur github
+use_github_action("pkgdown")
+
+
+covr::package_coverage() # test
+covr::report() # pour avoir la fonction
+
+
+## pour rcpp
+use_rcpp()
+
+
+# pipe ??
+use_pipe() # pour l'avoir dans le package sans charger package magrittr
+
+# creer doc package
+use_package_doc()
+
+# creer template ne sert pas a grand chose
+use_rmarkdown_template("goodtemp")
 
 
 ## use frequently
