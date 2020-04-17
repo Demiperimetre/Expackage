@@ -42,7 +42,7 @@ use_news_md() # pour faire un change log...
 use_vignette("example")
 
 
-use_github()
+use_github("https://github.com/Demiperimetre/Expackage")
 # INTEGRATION continue
 use_github_action_check_release()
 
